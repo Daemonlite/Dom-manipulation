@@ -31,10 +31,16 @@ const hiddenContent = document.querySelector('.hidden-content')
 
 function revealContent(){
        if(hiddenContent.classList.contains('reveal-btn')){
-        hiddenContent.classList.remove('reveal-btn')
+           hiddenContent.classList.remove('reveal-btn')
        }else{
         hiddenContent.classList.add('reveal-btn')
        }
 }
 
 revealbtn.addEventListener('click',revealContent)
+
+
+
+// mypart
+const bar=document.getElementById('box')
+console.log(bar)

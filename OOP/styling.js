@@ -20,7 +20,6 @@ const li = document.createElement('li')
 //adding elements
 ul.append(li)
 
-
 //modifying a text
 li.innerText='X-men'
 
