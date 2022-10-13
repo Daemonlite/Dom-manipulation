@@ -43,4 +43,4 @@ revealbtn.addEventListener('click',revealContent)
 
 // mypart
 const bar=document.getElementById('box')
-console.log(bar)
+//commiting directly
